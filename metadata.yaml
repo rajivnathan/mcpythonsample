@@ -1,0 +1,14 @@
+extensionId: templateExample
+buildType: docker
+language: python
+type: template
+info:
+  provider: IBM
+  version: 0.0.1
+userInterface:
+    label: Python hello world template
+    description: HelloWorld microservice written in python
+template:
+  giturl:
+  localpath: .
+
